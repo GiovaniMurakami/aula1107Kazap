@@ -29,3 +29,15 @@ puts name
 name = 'John Doe'
 name ||= 'Giovani Murakami'
 puts name
+
+#Case/When
+case idade
+when 0..17
+    puts 'Você é menor de idade'
+when 18..65
+    puts 'Vocẽ é adulto' 
+when 66..120
+    puts 'Você é idoso'
+else
+    puts 'Idade inválida'
+end
