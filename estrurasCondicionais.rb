@@ -19,5 +19,13 @@ else
 end
 
 #Operador ternário
-mensagem = idade < 18 ? "Você é menor de idade" : "Você é maior de idade"
-puts mensagem
+idade < 18 ? (puts "Você é menor de idade") : (puts "Você é maior de idade")
+
+#Atribuição Condicional - Atribui um valor a uma variável apenas se ela for falta ou 'nil'
+name = nil
+name ||= 'Giovani Murakami'
+puts name
+
+name = 'John Doe'
+name ||= 'Giovani Murakami'
+puts name
