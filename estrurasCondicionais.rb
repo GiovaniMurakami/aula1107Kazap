@@ -53,8 +53,16 @@ end
 
 possuiAutorizacao = true
 
-if idade >=18 || possuiAutorizacao
+if idade >= 18 || possuiAutorizacao
     puts 'Pode entrar na festa'
 else
     puts 'Não pode entrar na festa'
+end
+
+temCartao = false
+
+if !temCartao
+    puts 'Por favor, solicite um cartão de cŕedito'
+else
+    puts 'Você já possui um cartão de cŕedito'
 end
