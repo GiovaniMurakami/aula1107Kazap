@@ -8,3 +8,9 @@ elsif idade >= 18 && idade < 65
 elsif
     puts "Você é idoso."
 end
+
+unless idade < 18
+    puts "Você é maior de idade"
+else
+    puts "Você é menor de idade"
+end
