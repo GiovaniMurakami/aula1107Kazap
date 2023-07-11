@@ -41,3 +41,20 @@ when 66..120
 else
     puts 'Idade inválida'
 end
+
+#Operadores lógicos
+possuiCarteira = true
+
+if idade >= 18 && possuiCarteira
+    puts 'Pode dirigir'
+else
+    puts 'Não pode dirigir'
+end
+
+possuiAutorizacao = true
+
+if idade >=18 || possuiAutorizacao
+    puts 'Pode entrar na festa'
+else
+    puts 'Não pode entrar na festa'
+end
