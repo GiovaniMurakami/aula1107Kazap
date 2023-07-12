@@ -1,5 +1,5 @@
 # aula1107Kazap
-## Exercício elaborados durante a segunda aula de Ruby em KazapAcademy
+## Exercícios elaborados durante a segunda aula de Ruby em KazapAcademy
 
 <p>1- Crie um programa que verifique se um número é positivo, negativo ou zero usando a
 estrutura condicional if..elsif..else.
