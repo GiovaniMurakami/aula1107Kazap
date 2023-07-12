@@ -3,8 +3,8 @@
 idade = gets.chomp.to_i
 
 puts 'Informe se possui título de eleitor [y/n]'
-tituloEleitor = gets.chomp
-    if tituloEleitor == 'y' || tituloEleitor == 'Y'
+tituloEleitor = gets.chomp.downcase
+    if tituloEleitor == 'y'
         tituloEleitor = true
     else
         tituloEleitor = false
